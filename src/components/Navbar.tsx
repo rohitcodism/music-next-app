@@ -25,12 +25,51 @@ function Navbar({ className }: { className?: string }) {
                     active={active}
                     item="Our Courses"
                 >
-                    <HoveredLink
-                        href="/courses"
+                    <div
+                        className="
+                            flex
+                            flex-col
+                            space-y-4
+                        "
                     >
-                        All Courses
-                    </HoveredLink>
+                        <HoveredLink
+                            href="/courses"
+                        >
+                            All Courses
+                        </HoveredLink>
+                        <HoveredLink
+                            href="/basic-music-theory"
+                        >
+                            Basic Music Theory
+                        </HoveredLink>
+                        <HoveredLink
+                            href="/advanced-composition"
+                        >
+                            Advanced Composition
+                        </HoveredLink>
+                        <HoveredLink
+                            href="/song-writing"
+                        >
+                            Song Writing
+                        </HoveredLink>
+                        <HoveredLink
+                            href="/music-production"
+                        >
+                            Music Production
+                        </HoveredLink>
+                    </div>
                 </MenuItem>
+                <Link
+                    href={"/contact"}
+                >
+                    <MenuItem
+                        setActive={setActive}
+                        active={active}
+                        item="Contact Us"
+                    >
+
+                    </MenuItem>
+                </Link>
             </Menu>
         </div>
     )

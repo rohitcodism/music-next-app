@@ -1,4 +1,4 @@
-import Image from "next/image";
+import HeroSection from "@/components/HeroSection";
 
 export default function Home() {
   return (
@@ -9,11 +9,16 @@ export default function Home() {
         text-400
       "
     >
-      <h3
-        className="width-full height-[100vh] flex justify-center items-center text-4xl font-bold text-white"
+      <main
+        className="
+          min-h-screen
+          bg-black/[0.96]
+          antialiased
+          bg-grid-white/[0.02]
+        "
       >
-        Hello World!!!
-      </h3>
+        <HeroSection />
+      </main>
     </div>
   );
 }
