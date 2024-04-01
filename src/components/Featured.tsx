@@ -79,7 +79,7 @@ function Featured() {
                                 className="
                                     rounded-[22px] 
                                     max-w-sm 
-                                    p-4 
+                                    p-4
                                     sm:p-10
                                     bg-white
                                     dark:bg-zinc-900
