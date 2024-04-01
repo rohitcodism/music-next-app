@@ -5,6 +5,8 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight';
 import { Button } from './ui/moving-border';
 
+//TODO : IF possible try to change the moving border color to white.
+
 function HeroSection() {
     return (
         <div
