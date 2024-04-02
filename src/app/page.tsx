@@ -1,5 +1,6 @@
 import Description from "@/components/Description";
 import Featured from "@/components/Featured";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Instructors from "@/components/Instructors";
 import Testimonials from "@/components/Testimonials";
@@ -28,6 +29,7 @@ export default function Home() {
         <Testimonials />
         <UpComingWebinars />
         <Instructors />
+        <Footer />
       </main>
     </div>
   );
