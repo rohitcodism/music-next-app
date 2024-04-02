@@ -1,6 +1,7 @@
 import Description from "@/components/Description";
 import Featured from "@/components/Featured";
 import HeroSection from "@/components/HeroSection";
+import Instructors from "@/components/Instructors";
 import Testimonials from "@/components/Testimonials";
 import UpComingWebinars from "@/components/UpComingWebinars";
 
@@ -26,6 +27,7 @@ export default function Home() {
         <Description />
         <Testimonials />
         <UpComingWebinars />
+        <Instructors />
       </main>
     </div>
   );

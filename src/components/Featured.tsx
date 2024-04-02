@@ -24,6 +24,7 @@ function Featured() {
         <div
             className='
                 py-12
+                pt-28
                 bg-black
             '
         >
